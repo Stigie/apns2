@@ -7,7 +7,7 @@ import "encoding/json"
 // Payload represents a notification which holds the content that will be
 // marshalled as JSON.
 type Payload struct {
-	content map[string]interface{}
+	Content map[string]interface{}
 }
 
 type aps struct {
